@@ -5,7 +5,7 @@ test('base cases', () => {
   expect(fib(1)).toBe(1)
 })
 
-test('simple non-bases cases', () => {
+test('simple non-base cases', () => {
   expect(fib(2)).toBe(1)
   expect(fib(5)).toBe(5)
 })
