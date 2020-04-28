@@ -1,8 +1,8 @@
-const sum = require('./model/sum')
+const { fib } = require('./model/fib')
 
 exports.handler = async event => {
     const input = JSON.parse(event.body)
-    const result = sum(input.a, input.b)
+    const result = fib(input.n)
     return {
         statusCode: 200,
         headers: {"content-type": "application/json"},
