@@ -1,8 +1,9 @@
 {
-  "name": "ts-jest",
+  "name": "netlify-typescript-api-starter",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "description": "Starter code for developing Typescript (and js) API with Netlify Functions",
+  "repository": "https://github.com/tytakoff/netlify-typescript-api-starter",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.4.0",
